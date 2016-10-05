@@ -1,0 +1,26 @@
+Questionable use of curly braces in ".model sir870adp vdmos(rg=3 vto=2.9 rd=3.2m rs=1.5m rb={m} kp=100 mtriode=1.85 cgdmax=1.4n cgdmin=70p cgs=2.9n cjo=3.6n m=.4 a=.7 vj=.7 lambda=20m is=3p ksubthres=.08 mfg=siliconix vds=100 ron=5.5m qg=53.5n)"
+    Error: undefined symbol in: "[m]"
+Circuit: * C:\Users\CheeLoong\Github\ElectricalEngineering\LTSpice\ECE331\Lab1\Lab1_1_6_Soon_Wang.asc
+
+Model "ald1101": Oxide thickness thinner than recommended for a level 2 MOSFET.
+Instance "m1": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Oct 05 14:21:06 2016
+Total elapsed time: 0.080 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4035
+traniter = 4031
+tranpoints = 2016
+accept = 1218
+rejected = 798
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1:      13 opcodes  0.1/[0.0]/0.0
+Matrix Compiler2: off  [0.1]/0.2/0.1
+
+
